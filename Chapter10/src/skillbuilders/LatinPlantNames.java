@@ -46,17 +46,17 @@ public class LatinPlantNames {
 		 String[] names = {"basil", "lavender", "parsley", "peppermint", "saffron", "sage"};
 
 		frame = new JFrame();
-		frame.setBounds(100, 100, 277, 397);
+		frame.setBounds(100, 100, 300, 397);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
 		JPanel panel = new JPanel();
-		panel.setBounds(10, 11, 241, 322);
+		panel.setBounds(10, 11, 264, 322);
 		frame.getContentPane().add(panel);
 		panel.setLayout(null);
 		
 		JLabel latinName = new JLabel("Octimum");
-		latinName.setBounds(97, 113, 71, 47);
+		latinName.setBounds(75, 120, 118, 47);
 		panel.add(latinName);
 		
 		JComboBox plantNames = new JComboBox(names);
