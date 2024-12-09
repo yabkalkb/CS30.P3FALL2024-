@@ -1,4 +1,4 @@
-package Mastery;
+package UEmployeeFacultyStaff;
 
 public class Staff extends UEmployee {
     private String jobTitle;

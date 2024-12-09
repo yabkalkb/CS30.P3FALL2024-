@@ -1,13 +1,17 @@
 
-package Mastery;
+package UEmployeeFacultyStaff;
 
 public class Faculty {
     private String department;
+    private String name;
+    private double salary;
 
     // Constructor for Faculty
     public Faculty(String name, double salary, String department) {
         super();  // Call to parent class constructor
         this.department = department;
+        this.name = name;
+        this.salary = salary;
     }
 
     // Getter for department
@@ -16,12 +20,11 @@ public class Faculty {
     }
 
 	public String getName() {
-		// TODO Auto-generated method stub
-		return null;
+		return name;
 	}
 
-	public String getSalary() {
-		// TODO Auto-generated method stub
-		return null;
+	public double getSalary() {
+
+		return salary;
 	}
 }

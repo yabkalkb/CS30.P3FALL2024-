@@ -1,4 +1,4 @@
-package Mastery;
+package UEmployeeFacultyStaff;
 
 public class UEmployeeFacultyStaff {
     public static void main(String[] args) {

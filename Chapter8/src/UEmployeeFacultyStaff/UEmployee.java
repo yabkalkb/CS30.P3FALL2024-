@@ -1,4 +1,4 @@
-package Mastery;
+package UEmployeeFacultyStaff;
 
 public class UEmployee {
     private String name;
