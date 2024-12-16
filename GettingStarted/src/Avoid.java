@@ -50,7 +50,6 @@ public class Avoid {
                 	distance = sonar.getDistance();
                 	
                 	double ReverseAmount = 0.5 - (0.5 * (Math.clamp(distance, 0, 100) / 100));
-                    System.out.println(-ReverseAmount + "% (Before)");
                     ReverseAmount = Math.clamp(-ReverseAmount, -0.5, -0.25);
                 	
                 	System.out.println(ReverseAmount + "%");
@@ -60,6 +59,7 @@ public class Avoid {
                 	if (distance >= 100) 
                 	{
                 		System.out.println("Not locked anymore");
+                		StuckTime = 0;
                 		break;
                 	}
                 	
@@ -83,7 +83,6 @@ public class Avoid {
                     	if (TimeStuck == 100) 
                     	{
                     		System.out.println("I'm fully stuck");
-                    		break;
                     	}
 
                     	System.out.println("Distance: " + distance + " mm");
@@ -120,11 +119,6 @@ public class Avoid {
             	}
 
             	System.out.println("Distance: " + distance + " mm");
-            	 
-            	if (distance > 200) 
-            	{
-            		break;
-            	}
                 
                 Thread.sleep(700);
             } else {
