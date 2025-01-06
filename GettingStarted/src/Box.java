@@ -23,7 +23,7 @@ public class Box {
         rightMotors.setTargetVelocity(1); // Move forward
 
         // Wait for 3 seconds to move forward (adjust the time based on the distance you want to travel)
-        Thread.sleep(1500);  // Move forward for 3 seconds
+        Thread.sleep(500);  // Move forward for 3 seconds
 
         // Turn 180° - rotate in place
         leftMotors.setTargetVelocity(0);  // Left motor reverse (backward)
@@ -48,7 +48,7 @@ public class Box {
         leftMotors.setTargetVelocity(1);  // Move forward
         rightMotors.setTargetVelocity(1); // Move forward
         
-        Thread.sleep(1500);  // Move forward for 3 seconds
+        Thread.sleep(500);  // Move forward for 3 seconds
         
         leftMotors.setTargetVelocity(0);
         rightMotors.setTargetVelocity(0);
@@ -69,7 +69,7 @@ public class Box {
         leftMotors.setTargetVelocity(1);  // Move forward
         rightMotors.setTargetVelocity(1); // Move forward
         
-        Thread.sleep(1500);  // Move forward for 3 seconds
+        Thread.sleep(500);  // Move forward for 3 seconds
         
         leftMotors.setTargetVelocity(0);
         rightMotors.setTargetVelocity(0);
@@ -92,7 +92,7 @@ public class Box {
         leftMotors.setTargetVelocity(1);  // Move forward
         rightMotors.setTargetVelocity(1); // Move forward
         
-        Thread.sleep(1500);  // Move forward for 3 seconds
+        Thread.sleep(500);  // Move forward for 3 seconds
         
         leftMotors.setTargetVelocity(0);
         rightMotors.setTargetVelocity(0);
